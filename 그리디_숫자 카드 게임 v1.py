@@ -3,7 +3,7 @@ n,m = map(int, input().split())
 
 #한줄 씩 입력받아 확인하기
 result = 0
-for i in range(n) :
+for i in range(n) : #n번이니깐 행의 개수만큼 for문 돈다.
     data = list(map(int, input().split()))
 
     #현재 줄에서 가장 작은 수 찾기
